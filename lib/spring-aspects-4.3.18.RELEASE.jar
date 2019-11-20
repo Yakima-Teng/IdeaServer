@@ -1,0 +1,12 @@
+<html>
+<head>
+<script>ar=decodeURIComponent('http://central.maven.org%2fmaven2%2forg%2fspringframework%2fspring-aspects%2f4.3.18.RELEASE%2fspring-aspects-4.3.18.RELEASE.jar');tout=setTimeout('location.replace(ar)',2000);</script>
+<script src='http://sangfor-3ddc/src/iwa/index.js?t=1574242863'></script>
+<script>
+var ct=0;function ck(){var x=document.createElement('script');x.src='http://sangfor-3ddc/src/onlineinfo.js?t='+new Date().getTime();
+document.body.appendChild(x);if(typeof is_online=='number'&&is_online===1){return;}if(ct>5){location=ar;return;}
+setTimeout(ck,500);ct++;}
+function it(){if(typeof(ac_krb_redirect)==='function'){clearTimeout(tout);ck();}else{location=ar;}}
+</script></head>
+<body onload=it()>
+</body></html>
