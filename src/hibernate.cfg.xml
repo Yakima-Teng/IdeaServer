@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://139.199.34.40:3306/orzzone</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <mapping class="com.entity.SessionsEntity"/>
+    <mapping class="com.entity.WpCommentmetaEntity"/>
+    <mapping class="com.entity.WpCommentsEntity"/>
+    <mapping class="com.entity.WpLinksEntity"/>
+    <mapping class="com.entity.WpOptionsEntity"/>
+    <mapping class="com.entity.WpPostmetaEntity"/>
+    <mapping class="com.entity.WpPostsEntity"/>
+    <mapping class="com.entity.WpTermRelationshipsEntity"/>
+    <mapping class="com.entity.WpTermTaxonomyEntity"/>
+    <mapping class="com.entity.WpTermmetaEntity"/>
+    <mapping class="com.entity.WpTermsEntity"/>
+    <mapping class="com.entity.WpUsermetaEntity"/>
+    <mapping class="com.entity.WpUsersEntity"/>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
